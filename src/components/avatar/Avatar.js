@@ -9,12 +9,12 @@ class Avatar extends Component {
         return (
             <svg className="avatar" viewBox={` 0 0 ${height} ${width}`} height={height} width={width}>
                 <image
-                    href={`/img/${this.props.player.id}.png`}
+                    href={`./img/${this.props.player.id}.png`}
                     height={height}
                     width={width}
                 />
                 <image
-                    href={`/img/${this.props.player.id}.png`}
+                    href={`./img/${this.props.player.id}.png`}
                     height={height}
                     width={width}
                     x={-width}
