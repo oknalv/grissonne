@@ -1,0 +1,74 @@
+{
+    "WELCOME": {
+        "play": "Xogar",
+        "howToPlay": "Como xogar"
+    },
+    "CONFIG": {
+        "selectPlayers": "Selección de xogadores",
+        "selectStartType": "Tipo de inicio",
+        "basic": "Básico",
+        "river": "Río de tinta",
+        "expansions": "Expansións",
+        "rulers": "Regras",
+        "twoPlayers": "Elixide plo menos dous xogadores",
+        "start": "Iniciar"
+    },
+    "PLAYERS": {
+        "pencil": "Lapis",
+        "brush": "Pincel",
+        "pen": "Bolígrafo",
+        "marker": "Rotulador",
+        "crayon": "Cera",
+        "highlighter": "Subliñador"
+    },
+    "MESSAGES": {
+        "start": "Que comence a partida!",
+        "turn": "¡Turno de ${values.player}!",
+        "automatic": "Lousa automática",
+        "finish": "Fin!",
+        "finalPoints": "Puntos finais",
+        "pathPoints": "Puntos por camiños",
+        "noPaths": "Non hai máis camiños pintados...",
+        "cityPoints": "Puntos por cidades",
+        "noCities": "Non hai máis cidades pintadas...",
+        "potPoints": "Puntos por lapiseiros",
+        "noPots": "Non hai máis lapiseiros cheos...",
+        "fieldPoints": "Puntos por campos",
+        "noFields": "Non hai máis campos pintados...",
+        "winnerIs": "E o gañador é...",
+        "winner": "Gañador",
+        "winners": "Gañadores",
+        "gameDevelopment": "Desenvolvemento da partida"
+    },
+    "BOARD": {
+        "skip": "Pasar"
+    },
+    "STATS": {
+        "tile": "Lousa"
+    },
+    "HOW_TO_PLAY": {
+        "title": "Benvido a",
+        "carcassonne": "Este xogo é unha versión web do Carcassonne, onde a temática xira ó redor de material de escritura e debuxo. Creei este proxecto co obxectivo de familiarizarme co framework React e, como gran fan do xogo orixinal, para xogar cando non é posible facelo coa versión física en situacións como en viaxes ou cando non hai espazo suficiente para xogar.",
+        "originalRules": "Se non sabes como xogar, podes ver as regras do xogo here e vou explicar as diferenzas co xogo orixinal nesta sección.",
+        "here": "aquí",
+        "TILE_PARTS": {
+            "title": "Partes da lousa",
+            "city": "cidade",
+            "path": "camiño",
+            "field": "campo",
+            "tilePartsExplanation": "O cambio máis simple nas lousas son as cores das cidades e dos campos. Están en escala de grises aquí, sendo as cidades dunha cor gris escura en lugar de marróns e os campos dunha cor gris máis clara en lugar de verdes. Os camiños quedan igual. Elixín utilizar o gris porque, durante o xogo, se pertencen a un xogador ou a varios xogadores, van mostrar un patrón usando as súas cores.",
+            "otherPartsExplanation": "Os seguintes elementos son completamente diferentes ós do xogo orixinal en nome e aparencia, o elemento orixinal correspondente está entre paréntese:",
+            "pot": "lapiseiro (mosteiro)",
+            "postIt": "post-it (escudo)",
+            "eraser": "goma (pobo)",
+            "river": "río de tinta (río)",
+            "protractor": "transportador (pousada)",
+            "triangles": "escuadro e cartabón (catedral)"
+        },
+        "EXPANSIONS": {
+            "title": "Expansións",
+            "explanation": "Usei o Carcassonne Plus como referencia e ven con 11 expansións. Por agora, só implementei 2: \"O río\" e \"Pousadas e catedrais\", ás cales chamei aquí \"Río de tinta\" e \"Regras\", respectivamente. Á parte diso, introducín o seguinte cambio:",
+            "EI": "Nesta lousa, no xogo orixinal, non podes colocar un boneco nos dous pequenos camiños que van do pobo (a goma aquí) ás cidades pero, nesta versión, podes facelo."
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.square {
+    height: calc(var(--tile-width) * var(--zoom));
+    width:  calc(var(--tile-width) * var(--zoom));
+    background-color: transparent;
+    margin: .5px;
+}
+
+
+.board.only-square .square.possible:not(.only-square) > .tile-container {
+    opacity: 0
+}
+
+.board:not(.only-square) .square.possible,
+.board.only-square .square.possible.only-square {
+    opacity: 1;
+    box-shadow: 0 0 calc(1px * var(--zoom)) #888888 inset;
+    background-color: white;
+}
+
+.square.set{
+    z-index: 1;
+}
+
+.board:not(.only-square) .square.possible > *,
+.board.only-square .square.possible.only-square > * {
+    opacity: 0;
+}
+
+.board:not(.only-square) .square.possible:hover,
+.board.only-square .square.possible.only-square:hover {
+    background-color: lightcoral;
+    cursor: not-allowed;
+}
+
+.board:not(.only-square) .square.possible.right-place:hover,
+.board.only-square .square.possible.right-place.only-square:hover {
+    cursor: pointer;
+    background-color: initial;
+}
+
+.board:not(.only-square) .square.possible:hover > *,
+.board.only-square .square.possible.only-square:hover > *  {
+    opacity: .25;
+}
+
+.board:not(.only-square) .square.possible.right-place:hover > *,
+.board.only-square .square.possible.right-place.only-square:hover > * {
+    opacity: .5;
+}
+
+
+.board.square-highlight:not(.only-square) .square.possible.right-place:hover,
+.board.square-highlight.only-square .square.possible.right-place.only-square:hover,
+.board .square-highlight .square-cell:not(.highlight) .square.set:hover {
+    background-color: lightcoral;
+    cursor: not-allowed;
+}

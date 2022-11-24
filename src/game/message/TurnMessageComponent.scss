@@ -1,0 +1,15 @@
+.turn-message {
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    > svg {
+        height: 100px;
+        width: 100px;
+        image {
+            height: 100px;
+            width: 100px;
+        }
+    }
+}

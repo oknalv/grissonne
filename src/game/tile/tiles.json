@@ -1,0 +1,1085 @@
+{
+    "initial": "D",
+    "basic": {
+        "set": "A,A,B,B,B,B,C,D,D,D,E,E,E,E,E,F,F,G,H,H,H,I,I,J,J,J,K,K,K,L,L,L,M,M,N,N,N,O,O,P,P,P,Q,R,R,R,S,S,T,U,U,U,U,U,U,U,U,V,V,V,V,V,V,V,V,V,W,W,W,W,X",
+        "tiles": {
+            "A": {
+                "type": "A",
+                "sides": [0, 0, 0, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 4, 7, 9, 11]
+                    }
+                ],
+                "pot": true
+            },
+            "B": {
+                "type": "B",
+                "sides": [0, 0, 0, 0],
+                "fields": [
+                    {
+                        "points": [1, 4, 7, 10]
+                    }
+                ],
+                "pot": true
+            },
+            "C": {
+                "type": "C",
+                "sides": [2, 2, 2, 2],
+                "cities": [
+                    {
+                        "points": [1, 4, 7, 10],
+                        "postIt": true
+                    }
+                ]
+            },
+            "D": {
+                "type": "D",
+                "sides": [1, 2, 1, 0],
+                "paths": [
+                    {
+                        "points": [1, 7]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 8, 10]
+                    },
+                    {
+                        "points": [2, 6],
+                        "cities": [0]
+                    }
+                ]
+            },        
+            "E": {
+                "type": "E",
+                "sides": [0, 2, 0, 0],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 7, 10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "F": {
+                "type": "F",
+                "sides": [2, 0, 2, 0],
+                "cities": [
+                    {
+                        "points": [1, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [4],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "G": {
+                "type": "G",
+                "sides": [2, 0, 2, 0],
+                "cities": [
+                    {
+                        "points": [1, 7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [4],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "H": {
+                "type": "H",
+                "sides": [2, 0, 2, 0],
+                "cities": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [4, 10],
+                        "cities": [0, 1]
+                    }
+                ]
+            },
+            "I": {
+                "type": "I",
+                "sides": [2, 2, 0, 0],
+                "cities": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [7, 10],
+                        "cities": [0, 1]
+                    }
+                ]
+            },
+            "J": {
+                "type": "J",
+                "sides": [0, 2, 1, 1],
+                "paths": [
+                    {
+                        "points": [7, 10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 6, 11],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "K": {
+                "type": "K",
+                "sides": [1, 2, 0, 1],
+                "paths": [
+                    {
+                        "points": [1, 10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 7, 9],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "L": {
+                "type": "L",
+                "sides": [1, 2, 1, 1],
+                "paths": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [7]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 6],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "M": {
+                "type": "M",
+                "sides": [0, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [4, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "N": {
+                "type": "N",
+                "sides": [0, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [4, 7],
+                        "cities": [0]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 10]
+                    }
+                ]
+            },
+            "O": {
+                "type": "O",
+                "sides": [2, 2, 1, 1],
+                "paths": [
+                    {
+                        "points": [7, 10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [6, 11],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "P": {
+                "type": "P",
+                "sides": [2, 2, 1, 1],
+                "paths": [
+                    {
+                        "points": [7, 10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [6, 11],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "Q": {
+                "type": "Q",
+                "sides": [2, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [1, 4, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "R": {
+                "type": "R",
+                "sides": [2, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [1, 4, 7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "S": {
+                "type": "S",
+                "sides": [2, 2, 2, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [9],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [11],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "T": {
+                "type": "T",
+                "sides": [2, 2, 2, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4, 7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [9],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [11],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "U": {
+                "type": "U",
+                "sides": [0, 1, 0, 1],
+                "paths": [
+                    {
+                        "points": [4, 10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 3, 11]
+                    },
+                    {
+                        "points": [5, 7, 9]
+                    }
+                ]
+            },
+            "V": {
+                "type": "V",
+                "sides": [1, 0, 0, 1],
+                "paths": [
+                    {
+                        "points": [1, 10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 4, 7, 9]
+                    }
+                ]
+            },
+            "W": {
+                "type": "W",
+                "sides": [1, 0, 1, 1],
+                "paths": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [7]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "X": {
+                "type": "X",
+                "sides": [1, 1, 1, 1],
+                "paths": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [7]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 3]
+                    },
+                    {
+                        "points": [5, 6]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            }
+        }
+    },
+    "river": {
+        "start": "BB6F1",
+        "end": "BB6F12",
+        "set": "BB6F2,BB6F3,BB6F4,BB6F4,BB6F5,BB6F7,BB6F7,BB6F8,BB6F9,BB6F11",
+        "tiles": {
+            "BB6F1": {
+                "type": "BB6F1",
+                "sides": [0, 0, 0, 3],
+                "fields": [
+                    {
+                        "points": [1, 4, 7, 9, 11]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F2": {
+                "type": "BB6F2",
+                "sides": [3, 2, 3, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [6],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F3": {
+                "type": "BB6F3",
+                "sides": [3, 2, 3, 2],
+                "cities": [
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 8],
+                        "cities": [1]
+                    },
+                    {
+                        "points": [2, 6],
+                        "cities": [0]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F4": {
+                "type": "BB6F4",
+                "sides": [3, 0, 3, 0],
+                "fields": [
+                    {
+                        "points": [0, 8, 10]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F5": {
+                "type": "BB6F5",
+                "sides": [3, 2, 2, 3],
+                "cities": [
+                    {
+                        "points": [4, 7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 9],
+                        "cities": [0]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F7": {
+                "type": "BB6F7",
+                "sides": [3, 3, 0, 0],
+                "fields": [
+                    {
+                        "points": [0, 5, 7, 10]
+                    },
+                    {
+                        "points": [2, 3]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F8": {
+                "type": "BB6F8",
+                "sides": [3, 0, 3, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ],
+                "pot": true,
+                "river": true
+            },
+            "BB6F9": {
+                "type": "BB6F9",
+                "sides": [1, 1, 3, 3],
+                "paths": [
+                    {
+                        "points": [1, 4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 5, 6, 11]
+                    },
+                    {
+                        "points": [2, 3]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F11": {
+                "type": "BB6F11",
+                "sides": [1, 3, 1, 3],
+                "paths": [
+                    {
+                        "points": [1, 7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 3]
+                    },
+                    {
+                        "points": [5, 6]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ],
+                "river": true
+            },
+            "BB6F12": {
+                "type": "BB6F12",
+                "sides": [0, 0, 0, 3],
+                "fields": [
+                    {
+                        "points": [1, 4, 7, 9, 11]
+                    }
+                ],
+                "river": true
+            }
+        }
+    },
+    "rulers": {
+        "set": "EA,EB,EC,ED,EE,EF,EG,EH,EI,EJ,EK,EK,EL,EM,EN,EO,EP,EQ",
+        "tiles": {
+            "EA": {
+                "type": "EA",
+                "sides": [1, 0, 0, 1],
+                "paths": [
+                    {
+                        "points": [1, 10],
+                        "protractor": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 4, 7, 9]
+                    }
+                ]
+            },
+            "EB": {
+                "type": "EB",
+                "sides": [1, 0, 1, 0],
+                "paths": [
+                    {
+                        "points": [1, 7],
+                        "protractor": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 8, 10]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    }
+                ]
+            },
+            "EC": {
+                "type": "EC",
+                "sides": [1, 0, 1, 1],
+                "paths": [
+                    {
+                        "points": [1],
+                        "protractor": true
+                    },
+                    {
+                        "points": [7],
+                        "protractor": true
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "ED": {
+                "type": "ED",
+                "sides": [1, 0, 1, 0],
+                "paths": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 8, 10]
+                    },
+                    {
+                        "points": [2, 4, 6]
+                    }
+                ],
+                "pot": true
+            },
+            "EE": {
+                "type": "EE",
+                "sides": [1, 1, 1, 1],
+                "paths": [
+                    {
+                        "points": [1, 4]
+                    },
+                    {
+                        "points": [7, 10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 5, 6, 11]
+                    },
+                    {
+                        "points": [2, 3]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "EF": {
+                "type": "EF",
+                "sides": [2, 2, 1, 0],
+                "paths": [
+                    {
+                        "points": [7]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [6],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "EG": {
+                "type": "EG",
+                "sides": [2, 0, 0, 0],
+                "cities": [
+                    {
+                        "points": [1]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [4],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [7, 10],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "EH": {
+                "type": "EH",
+                "sides": [2, 2, 2, 2],
+                "cities": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [7]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [-1],
+                        "cities": [0, 1, 2, 3]
+                    }
+                ]
+            },
+            "EI": {
+                "type": "EI",
+                "sides": [1, 2, 1, 2],
+                "paths": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [-1]
+                    },
+                    {
+                        "points": [7]
+                    },
+                    {
+                        "points": [-1]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0],
+                        "cities": [1]
+                    },
+                    {
+                        "points": [2],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [6],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8],
+                        "cities": [1]
+                    }
+                ]
+            },
+            "EJ": {
+                "type": "EJ",
+                "sides": [0, 2, 0, 1],
+                "paths": [
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [1, 11],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [7, 9],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "EK": {
+                "type": "EK",
+                "sides": [2, 2, 2, 2],
+                "cities": [
+                    {
+                        "points": [1, 4, 7, 10],
+                        "triangles": true
+                    }
+                ]
+            },
+            "EL": {
+                "type": "EL",
+                "sides": [2, 2, 1, 1],
+                "paths": [
+                    {
+                        "points": [7, 10],
+                        "protractor": true
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [6, 11],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [8, 9]
+                    }
+                ]
+            },
+            "EM": {
+                "type": "EM",
+                "sides": [1, 2, 0, 1],
+                "paths": [
+                    {
+                        "points": [1, 10],
+                        "protractor": true
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [0, 11]
+                    },
+                    {
+                        "points": [2, 7, 9],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "EN": {
+                "type": "EN",
+                "sides": [2, 2, 0, 1],
+                "paths": [
+                    {
+                        "points": [10],
+                        "protractor": true
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 4]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [7, 9],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [11],
+                        "cities": [0]
+                    }
+                ]
+            },
+            "EO": {
+                "type": "EO",
+                "sides": [2, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [7]
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [10],
+                        "cities": [0, 1, 2]
+                    }
+                ]
+            },
+            "EP": {
+                "type": "EP",
+                "sides": [2, 2, 2, 0],
+                "cities": [
+                    {
+                        "points": [1]
+                    },
+                    {
+                        "points": [4, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [10],
+                        "cities": [0, 1]
+                    }
+                ]
+            },
+            "EQ": {
+                "type": "EQ",
+                "sides": [2, 1, 2, 1],
+                "paths": [
+                    {
+                        "points": [4]
+                    },
+                    {
+                        "points": [10]
+                    }
+                ],
+                "cities": [
+                    {
+                        "points": [1, 7],
+                        "postIt": true
+                    }
+                ],
+                "fields": [
+                    {
+                        "points": [3],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [5],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [9],
+                        "cities": [0]
+                    },
+                    {
+                        "points": [11],
+                        "cities": [0]
+                    }
+                ]
+            }
+        }
+    }
+}

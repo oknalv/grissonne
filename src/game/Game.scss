@@ -1,0 +1,19 @@
+.game {
+	display: flex;
+	height: 100%;
+	
+	.board-container {
+		width: calc(100% - var(--side-menu-width));
+		overflow: hidden;
+		background-color: #F0F0F0;
+	}
+}
+
+@media (pointer: coarse) {
+	.game {
+
+		.board-container {
+			overflow: auto;
+		}
+	}
+}

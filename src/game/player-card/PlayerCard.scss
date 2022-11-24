@@ -1,0 +1,56 @@
+.player-card {
+    font-size: 3rem;
+    background-color: hsla(var(--player-color-h), var(--player-color-s), var(--player-color-l), .1);
+    margin: 10px 0;
+    color: hsl(var(--player-color-h), var(--player-color-s), calc(var(--player-color-l) - 10%));
+    display: flex;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    --icon-height: 30px;
+    padding: 10px;
+
+    &.selected {
+        animation: blinking-border 1s ease infinite;
+    }
+
+    > svg {
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 10px;
+    }
+
+    .player-data {
+        flex-grow: 1;
+        text-align: right;
+    }
+
+    .points-tokens{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .tokens {
+            display: flex;
+            height: var(--icon-height);
+            justify-content: flex-end;
+            flex-grow: 1;
+
+            > svg {
+                width: 10%;
+            }
+        }
+    
+    }
+}
+
+@keyframes blinking-border {
+    0%{
+        border-color: hsla(var(--player-color-h), var(--player-color-s), calc(var(--player-color-l) - 10%), 0);
+    }
+    50%{
+        border-color: hsla(var(--player-color-h), var(--player-color-s), calc(var(--player-color-l) - 10%), 1);
+    }
+    100%{
+        border-color: hsla(var(--player-color-h), var(--player-color-s), calc(var(--player-color-l) - 10%), 0);
+    }
+}

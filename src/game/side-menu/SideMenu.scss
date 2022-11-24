@@ -1,0 +1,138 @@
+.side-menu {
+    width: var(--side-menu-width);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    align-items: center;
+    --zoom: 16;
+    --tile-width: 15px;
+    z-index: 1;
+}
+.no-tile {
+    height: calc(var(--tile-width) * var(--zoom));
+    width: calc(var(--tile-width) * var(--zoom));
+}
+
+.player-cards{
+    overflow-x: auto;
+    width: 100%;
+}
+
+.next-tile {
+    display: flex;
+    width:100%;
+
+    .tile-shape {
+        --tile-count-rotation: 35deg;
+        transform-origin: center;
+        transform: rotate(var(--tile-count-rotation)) translate(40px, 10px);
+        --tile-shape-side: 100px;
+        text {
+            fill: var(--tile-shape-frame-color);
+            transform-origin: center;
+            transform: rotate(calc(-1 * var(--tile-count-rotation)));
+        }
+    }
+
+    .tile-container {
+        svg, svg * {
+            transition: transform .5s ease !important;
+        }
+    }
+
+    > :first-child {
+        z-index: 1;
+    }
+
+    .remaining-help {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        button {
+            align-self: center;
+        }
+    }
+}
+
+.rotation-buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    > button {
+
+        &:hover {
+            animation: clock 1s infinite;
+        }
+        
+        &:first-child:hover {
+            --sign: 1;
+        }
+
+        &:last-child:hover {
+            --sign: -1;
+        }
+        
+        &:disabled:hover {
+            animation: none;
+        }
+    }
+    
+    
+}
+
+@keyframes clock {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(calc(var(--sign) * 90deg));
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.zoom-buttons {
+    position: fixed;
+    top: 0;
+    right: var(--side-menu-width);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+    z-index: 3;
+    color: var(--tile-shape-frame-color);
+
+    > * {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    > button {
+        border: none;
+        background-color: var(--tile-shape-frame-color);
+        cursor: pointer;
+        color: var(--tile-shape-background-color);
+
+        &:disabled {
+            background-color: var(--tile-shape-background-color);
+            color: var(--tile-shape-frame-color);;
+            cursor: not-allowed;
+            color: var(--tile-shape-frame-color);
+        }
+    }
+    > div {
+        background-color: var(--tile-shape-background-color);
+    }
+
+    > :first-child {
+        border-radius: 50px 50px 0 0;
+    }
+    > :last-child {
+        border-radius: 0 0 50px 50px;
+    }
+}

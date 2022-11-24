@@ -1,0 +1,35 @@
+.tile-checkbox {
+    display: inline-block;
+    --tile-shape-background-color: var(--input-secondary-color);
+    --tile-shape-frame-color: transparent;
+    
+    .tile-shape {
+        cursor: pointer;
+        user-select: none;
+        box-shadow: 0 10px 20px #000000AA;
+        transform: translateY(-10px);
+        transition: all .1s ease;
+
+        > * {
+            transition: all .1s ease;
+        }
+
+        > *:not(.background) {
+            opacity: .25;
+        }
+        
+    }
+    
+    &.selected {
+        --tile-shape-frame-color: var(--input-primary-color);
+
+        .tile-shape {
+            box-shadow: none;
+            transform: none;
+
+            > * {
+                opacity: 1;
+            }
+        }
+    }
+}

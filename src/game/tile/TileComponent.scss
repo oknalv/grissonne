@@ -1,0 +1,9 @@
+.tile-container {
+    height: calc(var(--tile-width) * var(--zoom));
+    width:  calc(var(--tile-width) * var(--zoom));
+
+    >.tile {
+        height: calc(var(--tile-width) * var(--zoom));
+        width:  calc(var(--tile-width) * var(--zoom));
+    }
+}

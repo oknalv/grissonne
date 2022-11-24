@@ -1,0 +1,50 @@
+{
+    "marker": {
+        "id": "marker",
+        "color": {
+            "h": 0,
+            "s": 100,
+            "l": 40
+        }
+    },
+    "highlighter": {
+        "id": "highlighter",
+        "color": {
+            "h": 60,
+            "s": 100,
+            "l": 40
+        }
+    },
+    "pencil": {
+        "id": "pencil",
+        "color": {
+            "h": 120,
+            "s": 100,
+            "l": 40
+        }
+    },
+    "crayon": {
+        "id": "crayon",
+        "color": {
+            "h": 180,
+            "s": 100,
+            "l": 40
+        }
+    },
+    "pen": {
+        "id": "pen",
+        "color": {
+            "h": 240,
+            "s": 100,
+            "l": 40
+        }
+    },
+    "brush": {
+        "id": "brush",
+        "color": {
+            "h": 300,
+            "s": 100,
+            "l": 40
+        }
+    }
+}

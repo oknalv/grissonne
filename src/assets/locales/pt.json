@@ -1,0 +1,74 @@
+{
+    "WELCOME": {
+        "play": "Jogar",
+        "howToPlay": "Como jogar"
+    },
+    "CONFIG": {
+        "selectPlayers": "Selecção de jogadores",
+        "selectStartType": "Tipo de início",
+        "basic": "Básico",
+        "river": "Rio de tinta",
+        "expansions": "Expansões",
+        "rulers": "Réguas",
+        "twoPlayers": "Escolha pelo menos 2 jogadores",
+        "start": "Iniciar"
+    },
+    "PLAYERS": {
+        "pencil": "Lápis",
+        "brush": "Pincel",
+        "pen": "Caneta",
+        "marker": "Marcador",
+        "crayon": "Cera",
+        "highlighter": "Fluorescente"
+    },
+    "MESSAGES": {
+        "start": "Que o jogo comece!",
+        "turn": "Vez de ${values.player}!",
+        "automatic": "Azulejo automático",
+        "finish": "Fim!",
+        "finalPoints": "Pontos finais",
+        "pathPoints": "Pontos por caminhos",
+        "noPaths": "Não há mais caminhos pintados...",
+        "cityPoints": "Pontos por cidades",
+        "noCities": "Não há mais cidades pintadas...",
+        "potPoints": "Pontos por lapiseiras",
+        "noPots": "Não há mais lapiseiras cheias...",
+        "fieldPoints": "Pontos por campos",
+        "noFields": "Não há mais campos pintados...",
+        "winnerIs": "E o ganhador é...",
+        "winner": "Ganhador",
+        "winners": "Ganhadores",
+        "gameDevelopment": "Desenvolvimento do jogo"
+    },
+    "BOARD": {
+        "skip": "Saltar"
+    },
+    "STATS": {
+        "tile": "Azulejo"
+    },
+    "HOW_TO_PLAY": {
+        "title": "Bem-vindo a",
+        "carcassonne": "Este jogo é uma versão web do Carcassonne, onde o tema gira em torno de material de escrita e desenho. Criei este projecto com o objectivo de me familiarizar com o framework React e, como grande fã do jogo original, para jogar quando não é possível fazê-lo com a versão física en situações como em viagens ou quando não há espaço suficiente para jogar.",
+        "originalRules": "Se não souber como jogar, pode ver as regras do jogo here e vou explicar as diferenças com o jogo original nesta secção.",
+        "here": "aqui",
+        "TILE_PARTS": {
+            "title": "Partes do azulejo",
+            "city": "cidade",
+            "path": "caminho",
+            "field": "campo",
+            "tilePartsExplanation": "A mudança mais simples nos azulejos são as cores das cidades e dos campos. Aqui são cinzentos, sendo as cidades cinzentas escura em vez de castanhas e os campos cinzentos mais claros en vez de verdes. Os caminhos ficam em branco. Escolhi usar o cinzento porque, durante o jogo, se pertencerem a un jogador ou a vários jogadores, vão mostrar un padrão usando as suas cores.",
+            "otherPartsExplanation": "Os seguintes elementos são completamente diferentes dos do jogo original em nome e aparência, o elemento original correspondente está entre parênteses:",
+            "pot": "lapiseira (mosteiro)",
+            "postIt": "post-it (escudo)",
+            "eraser": "borracha (aldeia)",
+            "river": "rio de tinta (rio)",
+            "protractor": "transferidor (pousada)",
+            "triangles": "esquadros (catedral)"
+        },
+        "EXPANSIONS": {
+            "title": "Expansões",
+            "explanation": "Usei o Carcassonne Plus como referência e vem com 11 expansões. Até agora, apenas implementei 2: \"O rio\" e \"Pousadas e catedrais\", que aqui chamei \"Rio de tinta\" e \"Réguas\", respectivamente. Para além disso, introduzi a seguinte alteração:",
+            "EI": "Neste azulejo, no jogo original, não se pode colocar um boneco nos dois pequenos caminhos que vão da aldeia (a borracha aqui) até às cidades mas, nesta versão, é possível."
+        }
+    }
+}

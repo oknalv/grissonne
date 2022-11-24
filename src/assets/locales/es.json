@@ -1,0 +1,74 @@
+{
+    "WELCOME": {
+        "play": "Jugar",
+        "howToPlay": "Cómo jugar"
+    },
+    "CONFIG": {
+        "selectPlayers": "Selección de jugadores",
+        "selectStartType": "Tipo de inicio",
+        "basic": "Básico",
+        "river": "Río de tinta",
+        "expansions": "Expansiones",
+        "rulers": "Reglas",
+        "twoPlayers": "Elegid al menos dos jugadores",
+        "start": "Iniciar"
+    },
+    "PLAYERS": {
+        "pencil": "Lápiz",
+        "brush": "Pincel",
+        "pen": "Bolígrafo",
+        "marker": "Rotulador",
+        "crayon": "Cera",
+        "highlighter": "Subrayador"
+    },
+    "MESSAGES": {
+        "start": "¡Que comience la partida!",
+        "turn": "¡Turno de ${values.player}!",
+        "automatic": "Loseta automática",
+        "finish": "¡Fin!",
+        "finalPoints": "Puntos finales",
+        "pathPoints": "Puntos por caminos",
+        "noPaths": "No hay más caminos pintados...",
+        "cityPoints": "Puntos por ciudades",
+        "noCities": "No hay más ciudades pintadas...",
+        "potPoints": "Puntos por lapiceros",
+        "noPots": "No hay más lapiceros llenos...",
+        "fieldPoints": "Puntos por campos",
+        "noFields": "No hay más campos pintados...",
+        "winnerIs": "Y el ganador es...",
+        "winner": "Ganador",
+        "winners": "Ganadores",
+        "gameDevelopment": "Desarrollo de la partida"
+    },
+    "BOARD": {
+        "skip": "Pasar"
+    },
+    "STATS": {
+        "tile": "Loseta"
+    },
+    "HOW_TO_PLAY": {
+        "title": "¡Bienvenido a",
+        "carcassonne": "Este juego es una versión web del Carcassonne, donde la temática gira en torno a material de escritura y dibujo. Creé este proyecto con el objetivo de familiarizarme con el framework React y, como gran fan del juego original, para jugar cuando no es posible hacerlo con la versión física en situaciones como en viajes o cuando no hay espacio suficiente para jugar.",
+        "originalRules": "Si no sabes cómo jugar, puedes ver las reglas del juego here y voy a explicar las diferencias con el juego original en esta sección.",
+        "here": "aquí",
+        "TILE_PARTS": {
+            "title": "Partes de la loseta",
+            "city": "ciudad",
+            "path": "camino",
+            "field": "campo",
+            "tilePartsExplanation": "El cambio más simple en las losetas son los colores de las ciudades y de los campos. Están en escala de grises aquí, siendo las ciudades de un color gris oscuro en lugar de marrones y los campos de un color gris más claro en lugar de verdes. Los caminos se quedan igual. He elegido utilizar el gris porque, durante el juego, si pertenecen a un jugador o a varios jugadores, van a mostrar un patrón usando sus colores.",
+            "otherPartsExplanation": "Los siguientes elementos son completamente diferentes a los del juego original en nombre y apariencia, el elemento original correspondiente está entre paréntesis:",
+            "pot": "lapicero (monasterio)",
+            "postIt": "pósit (escudo)",
+            "eraser": "goma (pueblo)",
+            "river": "río de tinta (río)",
+            "protractor": "transportador (posada)",
+            "triangles": "escuadra y cartabón (catedral)"
+        },
+        "EXPANSIONS": {
+            "title": "Expansiones",
+            "explanation": "He usado el Carcassonne Plus como referencia y viene con 11 expansiones. Por ahora, solo he implementado 2: \"El río\" y \"Posadas y catedrales\", a la cuales he llamado aquí \"Río de tinta\" y \"Reglas\", respectivamente. Aparte de eso, he introducido el siguiente cambio:",
+            "EI": "En esta loseta, en el juego original, no puedes colocar un muñeco en los dos pequeños caminos que van del pueblo (la goma aquí) a las ciudades pero, en esta versión, puedes hacerlo."
+        }
+    }
+}

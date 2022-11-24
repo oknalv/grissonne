@@ -1,0 +1,6 @@
+.icon {
+    &::before {
+        content: var(--content);
+        font-family: TipoIcon;
+    }
+}

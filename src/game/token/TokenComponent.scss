@@ -1,0 +1,31 @@
+.token {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(23.5px / 6 * var(--zoom));
+    width: calc(12.25px / 6 * var(--zoom));
+    transform: translate( calc((var(--x) / 6) * var(--zoom) - 50% + 1px), calc((var(--y)/ 6) * var(--zoom) - 100% + 1px));
+}
+
+.token-enter{
+    opacity: 0;
+    transform: translate( calc((var(--x) / 6) * var(--zoom) - 50% + 1px), calc(((var(--y) - 20px)/ 6) * var(--zoom) - 100% + 1px));
+}
+
+.token-enter-active{
+    opacity: 1;
+    transform: translate( calc((var(--x) / 6) * var(--zoom) - 50% + 1px), calc((var(--y)/ 6) * var(--zoom) - 100% + 1px));
+    transition: opacity var(--token-timeout) ease, transform var(--token-timeout) ease-out;
+}
+
+.token-exit{
+    opacity: 1;
+    transform: translate( calc((var(--x) / 6) * var(--zoom) - 50% + 1px), calc((var(--y)/ 6) * var(--zoom) - 100% + 1px));
+}
+
+.token-exit-active{
+    opacity: 0;
+    transform: translate( calc((var(--x) / 6) * var(--zoom) - 50% + 1px), calc(((var(--y) - 20px)/ 6) * var(--zoom) - 100% + 1px));
+    transition: opacity var(--token-timeout) ease, transform var(--token-timeout) ease-out;
+}

@@ -1,0 +1,33 @@
+.welcome-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    .logo {
+        width: 800px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        button {
+            margin: 10px 0;
+
+            .flag {
+                display: inline-block;
+                --size: 2.5rem;
+                width: var(--size);
+                height: var(--size);
+                border-radius: var(--size);
+                background-size: var(--size);
+                margin: calc(.5rem - .5px) .5rem calc(.5rem - .5px) 0;
+            }
+        }
+    }
+}

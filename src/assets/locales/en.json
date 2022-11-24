@@ -1,0 +1,74 @@
+{
+    "WELCOME": {
+        "play": "Play",
+        "howToPlay": "How to play"
+    },
+    "CONFIG": {
+        "selectPlayers": "Player selection",
+        "selectStartType": "Start type",
+        "basic": "Basic",
+        "river": "Ink river",
+        "expansions": "Expansions",
+        "rulers": "Rulers",
+        "twoPlayers": "Choose at least 2 players",
+        "start": "Start"
+    },
+    "PLAYERS": {
+        "pencil": "Pencil",
+        "brush": "Brush",
+        "pen": "Pen",
+        "marker": "Marker",
+        "crayon": "Crayon",
+        "highlighter": "Highlighter"
+    },
+    "MESSAGES": {
+        "start": "Let the game begin!",
+        "turn": "${values.player}'s turn!",
+        "automatic": "Automatic tile",
+        "finish": "Finish!",
+        "finalPoints": "Final points",
+        "pathPoints": "Points from paths",
+        "noPaths": "There aren't any more painted paths...",
+        "cityPoints": "Points from cities",
+        "noCities": "There aren't any more painted cities...",
+        "potPoints": "Points from pencil pots",
+        "noPots": "There aren't any more filled pencil pots...",
+        "fieldPoints": "Points from fields",
+        "noFields": "There aren't any more painted fields...",
+        "winnerIs": "And the winner is...",
+        "winner": "Winner",
+        "winners": "Winners",
+        "gameDevelopment": "Development of the game"
+    },
+    "BOARD": {
+        "skip": "Skip"
+    },
+    "STATS": {
+        "tile": "Tile"
+    },
+    "HOW_TO_PLAY": {
+        "title": "Welcome to",
+        "carcassonne": "This game is a web version of Carcassonne, where the theme revolves around writing and drawing material. I created this project with the goal of getting familiar with React framework and, as a big fan of the original game, to play when it is not possible to do it with the physical version in situations such as on trips or there is not enough room to play it.",
+        "originalRules": "If you don't know how to play, you can check the game rules here and I'm going to explain the diferences with the original game in this section.",
+        "here": "here",
+        "TILE_PARTS": {
+            "title": "Tile parts",
+            "city": "city",
+            "path": "path",
+            "field": "field",
+            "tilePartsExplanation": "The simplest change in the tiles are the colors of the cities and the fields. They are grayscaled here, being the cities in a dark gray color instead of brown and the fields in a lighter gray color instead of green. The paths remain in white. I choosed to use gray for them because, when playing, if they belong to a player or to several players, they are going to show a pattern using their colors.",
+            "otherPartsExplanation": "The following elements are completelly different from the ones in the the original game in name and in appearance, the corresponding original element is in brackets:",
+            "pot": "pot (monastery)",
+            "postIt": "post-it (shield)",
+            "eraser": "eraser (crossroads)",
+            "river": "ink river (river)",
+            "protractor": "protractor (inn)",
+            "triangles": "triangles (cathedral)"
+        },
+        "EXPANSIONS": {
+            "title": "Expansions",
+            "explanation": "I've used the Carcassonne Plus as reference and it comes with 11 expansions. So far, I've only implemented 2: \"The River\" and \"Inns & Cathedrals\", which I called here \"Ink river\" and \"Rulers\", respectively. Apart from that, I introduced the following change:",
+            "EI": "In this tile, in the original game, you cannot place a token on the two small paths that go from the crossroads (the eraser here) to the cities but, in this version, you can do it."
+        }
+    }
+}

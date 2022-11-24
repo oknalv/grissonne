@@ -1,0 +1,9 @@
+.tile-shape {
+    width: var(--tile-shape-side);
+    height: var(--tile-shape-side);
+
+    path {
+        fill: var(--fill-color);
+        fill-opacity:1;
+    }
+}

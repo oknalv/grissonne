@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Tipo;
+    src: url('./Tipo.ttf');
+}
+
+@font-face {
+    font-family: TipoIcon;
+    src: url('./TipoIcon.ttf');
+}
+
+* {
+    font-family: Tipo;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    font-size: 1em;
+}
+
+html {
+    --tile-shape-frame-color: #888888;
+    --tile-shape-background-color: white;
+    --input-primary-color: #228822;
+    --input-secondary-color: #dcffe1;
+    --input-error-primary-color: #FF8888;
+    --input-error-secondary-color: #fce5e6;
+    --tile-shape-side: 150px;
+    --side-menu-width: 400px;
+}
+
+*:focus-visible {
+    outline: none;
+
+}
+
+.lined{
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: all .5s ease;
+}
+
+.big-button {
+    background-color: var(--input-primary-color);
+    border: none;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    color: var(--input-secondary-color);
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: all .5s ease;
+    display: flex;
+    align-items: center;
+
+    &:disabled {
+        background-color: var(--input-error-primary-color);
+        color: var(--input-error-secondary-color);
+        cursor: not-allowed;
+    }
+
+    > *:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    &.secondary {
+        border: 3px solid var(--input-primary-color);
+        background-color: var(--input-secondary-color);
+        color: var(--input-primary-color);
+        padding: 2px 17px;
+
+        &:disabled {
+            border-color: var(--input-error-primary-color);
+            background-color: var(--input-error-secondary-color);
+            color: var(--input-error-primary-color);
+        }
+    }
+}
+
+.notebook {
+    background-color: white;
+    background-image: url("../public/img/margin.svg"), url("../public/img/paper.svg"), url("../public/img/line.svg");
+    background-repeat: repeat-y, repeat-x, repeat;
+    background-position: 0 0, 0 0, 0 2px;
+}
+
+svg {
+    fill-rule: evenodd;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 133, 0);
+}
+
+.round-icon-button {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 30px;
+    border: 3px solid var(--tile-shape-frame-color);
+    margin: 10px;
+    color: var(--tile-shape-frame-color);
+    background-color: var(--tile-shape-background-color);
+
+    &:disabled {
+        cursor: not-allowed;
+        opacity: .5;
+    }
+}

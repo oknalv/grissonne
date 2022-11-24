@@ -1,0 +1,45 @@
+.pot {
+    .highlight {
+        animation: pot-highlight 1s infinite;
+    }
+
+    .tool {
+        opacity: 0;
+    }
+    
+    .tool-enter{
+        opacity: 0;
+    }
+
+    .tool-enter-active{
+        opacity: 1;
+        transition: opacity var(--token-timeout) ease;
+    }
+
+    .tool-enter-done{
+        opacity: 1;
+    }
+
+    .tool-exit{
+        opacity: 1;
+    }
+
+    .tool-exit-active{
+        opacity: 0;
+        transition: opacity var(--token-timeout) ease;
+    }
+}
+
+@keyframes pot-highlight {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

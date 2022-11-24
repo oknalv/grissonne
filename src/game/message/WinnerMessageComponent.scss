@@ -1,0 +1,47 @@
+.winner-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+
+    .title {
+        font-size: 4rem;
+
+        &:not(:first-child) {
+            margin-top: 50px;
+        }
+    }
+
+    .winners {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .winner {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: var(--winner-padding);
+            width: var(--winner-width);
+            font-size: 2.5rem;
+            margin: 0 10px;
+
+            > div {
+                background-color: var(--winner-primary-color);
+                color: var(--winner-secondary-color);
+                padding: 0 10px;
+            }
+        }
+    }
+}
+
+.chart {
+    font-size: 1.5rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+
+    .recharts-cartesian-axis {
+        font-weight: bold;
+    }
+}

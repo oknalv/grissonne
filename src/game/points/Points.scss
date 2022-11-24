@@ -1,0 +1,62 @@
+.points {
+    z-index: 3;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(0px);
+
+    > div {
+        background-color: #FFFFFF80;
+        box-shadow: 0 0 calc(var(--scale) * 10px) calc(var(--scale) * 10px) #FFFFFF80;
+        border-radius: calc(var(--scale) * 10px);
+        padding: calc(var(--scale) * 5px);
+    }
+}
+
+.points-enter{
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.points-enter-active{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity var(--points-timeout) ease, transform var(--points-timeout) ease;
+}
+
+.points-exit{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.points-exit-active{
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity var(--points-timeout) ease, transform var(--points-timeout) ease;
+}
+
+.points-players {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    .token {
+        position: relative;
+        padding: calc(var(--scale) * 1px) calc(var(--scale) * 14px);
+    }
+}
+
+.points-amount {
+    font-size: calc(var(--scale) * 80px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

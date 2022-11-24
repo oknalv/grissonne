@@ -1,0 +1,58 @@
+.how-to-play {
+    --pen: #0000cc;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #80808080;
+    display: flex;
+    padding: 100px;
+    cursor: pointer;
+    backdrop-filter: blur(1px);
+    z-index: 10;
+
+    .close {
+        position: absolute;
+    }
+
+    .content {
+        width: 100%;
+        padding: 30px 30px 30px 80px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        font-size: 2rem;
+        cursor: initial;
+        overflow-y: auto;
+
+        > * {
+            margin-block-start: 0;
+            margin-block-end: 1rem;
+
+            &:last-child {
+                margin-block-end: 0;
+            }
+
+            &:not(.title) {
+                color: var(--pen);
+            }
+        }
+
+        .title {
+            font-size: 3rem;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            .logo {
+                max-width: 200px;
+                max-height: 3rem;
+                width: auto;
+                height: auto;
+                padding: 10px 0;
+            }
+        }
+
+        .subtitle {
+            font-size: 2.5rem;
+        }
+    }
+}

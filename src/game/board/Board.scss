@@ -1,0 +1,53 @@
+.board {
+    display: table;
+    padding: 100px;
+    margin: auto;
+}
+
+.square-row {
+    display: table-row;
+}
+
+.square-cell {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+    &:only-child {
+        padding: 100px;
+    }
+}
+
+.square-highlight {
+
+    .square-cell {
+        opacity: .5;
+
+        &.highlight {
+            opacity: 1;
+
+            g{
+                &:hover {
+                    cursor: not-allowed;
+                }
+                
+                &.selectable:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.skip-button {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
